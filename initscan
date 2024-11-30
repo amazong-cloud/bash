@@ -1,8 +1,7 @@
 #!/bin/bash
 
-
+# Takes just two arguments and passes them to nmap so you dont have to type the whole thing
 # Argument validation
-
 if [ "$#" -eq 0 ];then
 	echo "No arguments provided."
 	echo "Usage: $0 <IP> <Filename_to_write>"
@@ -17,6 +16,5 @@ else
 fi
 
 # Main code
-
 nmap -sV -sC -A -O -p- --defeat-rst-ratelimit -sS $1 -oN $2
 

@@ -3,11 +3,11 @@
 function print_banner () {
 	
 	
-	echo " 1: $1				   		  "
+	echo " 1: $1			      "
 	echo "|------------------------------|"
-	echo " 1. Fast       		    	  "
-	echo " 2. All ports            		  "
-	echo " 3. Full scan            		  "
+	echo " 1. Fast       		      "
+	echo " 2. All ports            	      "
+	echo " 3. Full scan            	      "
 	echo " 4. All of the above (default)  "
 	echo "|------------------------------|"
 
